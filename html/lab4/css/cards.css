@@ -1,0 +1,4 @@
+﻿.cards-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem;}
+.card{background:#0f1c2c;border:1px solid #1d3e63;border-radius:12px;padding:1rem;}
+.card__title{color:var(--accent);font-weight:700;margin:0 0 0.4rem;}
+.card__body{color:#c8d7ee;font-size:0.95rem;line-height:1.5;}

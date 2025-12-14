@@ -1,0 +1,30 @@
+2025/12/14 17:50:43 [error] 9284#18340: *1 CreateFile() "C:\Users\marti\Desktop\programi\nginx-1.28.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2025/12/14 18:10:30 [warn] 9852#13444: the "listen ... http2" directive is deprecated, use the "http2" directive instead in C:\Users\marti\Desktop\programi\nginx-1.28.0/conf/nginx.conf:8
+2025/12/14 18:10:30 [emerg] 9852#13444: cannot load certificate "C:\Users\marti\Desktop\programi\nginx-1.28.0/conf/conf/ssl.crt": BIO_new_file() failed (SSL: error:80000003:system library::No such process:calling fopen(C:\Users\marti\Desktop\programi\nginx-1.28.0/conf/conf/ssl.crt, r) error:10000080:BIO routines::no such file)
+2025/12/14 18:11:25 [error] 20000#10120: *4 CreateFile() "C:\Users\marti\Desktop\programi\nginx-1.28.0/html/lab4" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lab4 HTTP/1.1", host: "localhost"
+2025/12/14 18:12:05 [error] 20000#10120: *4 CreateFile() "C:\Users\marti\Desktop\programi\nginx-1.28.0/html/html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /html HTTP/1.1", host: "localhost"
+2025/12/14 18:55:23 [error] 20000#10120: *7 CreateFile() "C:\Users\marti\Desktop\programi\nginx-1.28.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2025/12/14 18:59:07 [emerg] 7948#19508: cannot load certificate "C:\Users\marti\Desktop\programi\nginx-1.28.0/conf/conf/ssl.crt": BIO_new_file() failed (SSL: error:80000003:system library::No such process:calling fopen(C:\Users\marti\Desktop\programi\nginx-1.28.0/conf/conf/ssl.crt, r) error:10000080:BIO routines::no such file)
+2025/12/14 19:01:01 [emerg] 19392#19872: cannot load certificate "C:\Users\marti\Desktop\programi\nginx-1.28.0/conf/conf/ssl.crt": BIO_new_file() failed (SSL: error:80000003:system library::No such process:calling fopen(C:\Users\marti\Desktop\programi\nginx-1.28.0/conf/conf/ssl.crt, r) error:10000080:BIO routines::no such file)
+2025/12/14 19:02:35 [emerg] 8732#8416: cannot load certificate "C:\Users\marti\Desktop\programi\nginx-1.28.0/conf/conf/ssl.crt": BIO_new_file() failed (SSL: error:80000003:system library::No such process:calling fopen(C:\Users\marti\Desktop\programi\nginx-1.28.0/conf/conf/ssl.crt, r) error:10000080:BIO routines::no such file)
+2025/12/14 19:04:00 [emerg] 10672#19964: cannot load certificate "C:\Users\marti\Desktop\programi\nginx-1.28.0/conf/conf/ssl.crt": BIO_new_file() failed (SSL: error:80000003:system library::No such process:calling fopen(C:\Users\marti\Desktop\programi\nginx-1.28.0/conf/conf/ssl.crt, r) error:10000080:BIO routines::no such file)
+2025/12/14 19:07:33 [emerg] 17348#2428: no "events" section in configuration
+2025/12/14 19:10:38 [emerg] 14884#15204: cannot load certificate "C:\Users\marti\Desktop\programi\nginx-1.28.0/conf/conf/ssl.crt": BIO_new_file() failed (SSL: error:80000003:system library::No such process:calling fopen(C:\Users\marti\Desktop\programi\nginx-1.28.0/conf/conf/ssl.crt, r) error:10000080:BIO routines::no such file)
+2025/12/14 21:37:08 [notice] 19004#20308: signal process started
+2025/12/14 21:43:26 [notice] 3952#15340: signal process started
+2025/12/14 21:45:26 [notice] 4964#17176: signal process started
+2025/12/14 21:55:05 [error] 21068#14560: *48 directory index of "C:\Users\marti\Desktop\programi\nginx-1.28.0/html/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/2.0", host: "localhost"
+2025/12/14 22:01:50 [error] 21068#14560: *52 directory index of "C:\Users\marti\Desktop\programi\nginx-1.28.0/html/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/2.0", host: "localhost"
+2025/12/14 23:04:27 [emerg] 21096#19688: cannot load certificate "C:\Users\marti\Desktop\programi\nginx-1.28.0/conf/conf/ssl.crt": BIO_new_file() failed (SSL: error:80000003:system library::No such process:calling fopen(C:\Users\marti\Desktop\programi\nginx-1.28.0/conf/conf/ssl.crt, r) error:10000080:BIO routines::no such file)
+2025/12/14 23:08:10 [emerg] 4892#4128: cannot load certificate "./conf/conf/ssl.crt": BIO_new_file() failed (SSL: error:80000003:system library::No such process:calling fopen(./conf/conf/ssl.crt, r) error:10000080:BIO routines::no such file)
+2025/12/14 23:34:04 [notice] 8840#7504: signal process started
+2025/12/14 23:35:13 [notice] 6452#5796: signal process started
+2025/12/14 23:40:03 [notice] 17484#18416: signal process started
+2025/12/14 23:40:28 [notice] 15096#3972: signal process started
+2025/12/14 23:41:19 [notice] 11748#17488: signal process started
+2025/12/14 23:41:35 [notice] 17648#12820: signal process started
+2025/12/14 23:43:19 [notice] 16516#18532: signal process started
+2025/12/14 23:43:52 [notice] 19444#7756: signal process started
+2025/12/14 23:47:28 [notice] 18832#10612: signal process started
+2025/12/14 23:48:06 [notice] 8692#13960: signal process started
+2025/12/14 23:50:13 [notice] 9240#18368: signal process started

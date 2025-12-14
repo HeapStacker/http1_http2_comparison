@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTTP/2 Demo - Lab4</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/typography.css">
+  <link rel="stylesheet" href="css/cards.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__badge">Lab4 · HTTP/2</div>
+    <h1>Brzina učitavanja s HTTP/2</h1>
+    <p class="lede">
+      Ova stranica ima puno malih resursa (CSS, JS i 12 slika) kako bi se vidjela prednost
+      HTTP/2 multiplexinga u odnosu na HTTP/1.x.
+    </p>
+    <div class="cta-row">
+      <button id="measureBtn" class="btn primary">Izmjeri load vrijeme</button>
+      <span id="loadTime" class="metric-pill">Čekam mjerenje…</span>
+    </div>
+  </header>
+
+  <main class="content">
+    <section class="panel">
+      <h2>Što se testira?</h2>
+      <ul class="checklist">
+        <li>Više paralelnih zahtjeva (12 slika + 6 CSS + 6 JS).</li>
+        <li>Binarni prijenos i kompresija zaglavlja u HTTP/2.</li>
+        <li>Usporedba s HTTP/1.x kad isključiš <code>http2 on;</code>.</li>
+      </ul>
+    </section>
+
+    <section class="panel">
+      <h2>Galerija (12 PNG)</h2>
+      <div class="gallery">
+        <img src="img/img1.png" alt="img1">
+        <img src="img/img2.png" alt="img2">
+        <img src="img/img3.png" alt="img3">
+        <img src="img/img4.png" alt="img4">
+        <img src="img/img5.png" alt="img5">
+        <img src="img/img6.png" alt="img6">
+        <img src="img/img7.png" alt="img7">
+        <img src="img/img8.png" alt="img8">
+        <img src="img/img9.png" alt="img9">
+        <img src="img/img10.png" alt="img10">
+        <img src="img/img11.png" alt="img11">
+        <img src="img/img12.png" alt="img12">
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Napomene za mjerenje</h2>
+      <ol class="steps">
+        <li>Otvorite DevTools → Network → uključite stupac <strong>Protocol</strong>.</li>
+        <li>Isključite cache (Disable cache), reload stranice.</li>
+        <li>Provjerite da piše <code>h2</code> kad je <code>http2 on;</code>.</li>
+        <li>Za HTTP/1.x: maknite <code>http2 on;</code> iz nginx.conf i reloadajte.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>Made for FER Lab4 · Multiplexing demo</span>
+  </footer>
+
+  <script src="js/logger.js"></script>
+  <script src="js/metrics.js"></script>
+  <script src="js/preload.js"></script>
+  <script src="js/gallery.js"></script>
+  <script src="js/utility.js"></script>
+  <script src="js/network.js"></script>
+</body>
+</html>
+

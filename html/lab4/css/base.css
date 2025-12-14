@@ -1,0 +1,6 @@
+﻿:root { --bg:#0b1622; --card:#122034; --text:#e8f0ff; --accent:#4ad5ff; }
+*{box-sizing:border-box;} body{margin:0;font-family:'"'"'Segoe UI'"'"',sans-serif;background:var(--bg);color:var(--text);}
+img{max-width:100%;display:block}
+.btn{padding:0.7rem 1.2rem;border-radius:10px;border:1px solid var(--accent);color:var(--bg);background:var(--accent);cursor:pointer;font-weight:600;}
+.btn.primary:hover{filter:brightness(1.08)}
+.metric-pill{padding:0.5rem 0.9rem;background:#0f2740;border:1px solid #1d3e63;border-radius:999px;display:inline-block;color:var(--accent);font-weight:600}

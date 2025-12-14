@@ -1,0 +1,5 @@
+﻿:root { --accent-2:#ff8f70; --accent-3:#5cf6a0; }
+.btn.alt{background:transparent;color:var(--accent);border-color:var(--accent-2);}
+.hero{background:linear-gradient(135deg,#0b1622 0%,#0f1f32 60%,#0b1622 100%);} 
+.panel.accent{border-color:var(--accent-2);box-shadow:0 10px 30px #00000055;}
+.metric-pill.good{color:var(--accent-3);border-color:var(--accent-3);}
